@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WinAPI", "MathCore.WinAPI\MathCore.WinAPI.csproj", "{AC0D2913-9650-4FB0-9F82-E08050C80D68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B9EFDD4-F844-438E-B1A1-255BADEC9195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTests", "ConsoleTests\ConsoleTests.csproj", "{AB423C4C-2F94-448A-93CE-B6F55ADEA97D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{AC0D2913-9650-4FB0-9F82-E08050C80D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC0D2913-9650-4FB0-9F82-E08050C80D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC0D2913-9650-4FB0-9F82-E08050C80D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB423C4C-2F94-448A-93CE-B6F55ADEA97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB423C4C-2F94-448A-93CE-B6F55ADEA97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB423C4C-2F94-448A-93CE-B6F55ADEA97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB423C4C-2F94-448A-93CE-B6F55ADEA97D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB423C4C-2F94-448A-93CE-B6F55ADEA97D} = {6B9EFDD4-F844-438E-B1A1-255BADEC9195}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7F4ED09D-D516-4949-A7CC-025C12F20B4D}
